@@ -9,6 +9,8 @@
 
 @import 'normalize';
 @import 'typography';
+@import 'header';
+@import 'home-page';
 @import 'navigation';
 @import 'sidebar';
 @import 'comments';
@@ -18,7 +20,9 @@
 Default Styling
 ====================================
 */
-
+html {
+	font-size: 62.5%;
+}
 img {
 	max-width: 100%;
 }
@@ -27,16 +31,8 @@ body {
 	color: #333;
 }
 
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-}
 
-.content {
-	float: left;
-	width: 65%;
-	margin-right: 5%;
-}
+
 
 .full {
 	width: 100%;

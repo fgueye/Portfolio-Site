@@ -11,15 +11,14 @@
 </head>
 
 
-<body <?php body_class(); ?>>
+<body  style="background-image: url('<?php the_post_thumbnail_url('full'); ?>') ;"<?php body_class(); ?>>
 
 <header>
+
   <div class="container">
-    <h1>
-      <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <?php bloginfo( 'name' ); ?>
-      </a>
-    </h1>
+  <img src="<?php the_field('logo', 'option'); ?>" alt="">
+
+    
 
     <?php wp_nav_menu( array(
       'container' => false,
