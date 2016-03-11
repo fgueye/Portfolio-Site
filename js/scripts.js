@@ -1,5 +1,9 @@
 $(function(){
 
-	console.log("It's working");
+	
+	// $('.about-container').stellar({
+	// 			horizontalOffset: 10,
+	// 			verticalOffset: 40
+	// 		});
 
 });

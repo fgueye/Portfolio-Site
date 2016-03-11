@@ -2,7 +2,11 @@
 
 <div class="main">
  
-    <section class="about-container" style="background-image:  linear-gradient(rgba(31, 31, 32, 0.97), rgba(35, 38, 40, 0.94)), url('<?php the_field('about_bg'); ?>'); ">
+    <section class="about-container">
+    
+    <div class="image" style="background-image:  linear-gradient(rgba(31, 31, 32, 0.97), rgba(35, 38, 40, 0.94)), url('<?php the_field('about_bg'); ?>'); ">
+      
+    </div>
 
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
@@ -40,6 +44,10 @@
         <h2><?php the_field('portfolio') ?> </h2>
       </div>
 
+    </section>
+
+    <section class="contact-container">
+      <div class="contact-content"></div>
     </section>
 
 

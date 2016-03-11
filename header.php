@@ -17,6 +17,7 @@
 
   <div class="container">
   <img src="<?php the_field('logo', 'option'); ?>" alt="">
+  <div><img src="//localhost:3000/portfoliosite/wp-content/themes/theme-hackeryou/images/speckle1.png" alt=""></div>
 
     
 
