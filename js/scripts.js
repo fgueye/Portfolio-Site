@@ -1,9 +1,14 @@
 $(function(){
 
 	
-	// $('.about-container').stellar({
-	// 			horizontalOffset: 10,
-	// 			verticalOffset: 40
-	// 		});
+	$('.about-bg').stellar({
+				horizontalOffset: 10,
+				verticalOffset: 40
+			});
+	$('.portfolio-bg').stellar({
+				horizontalOffset: 10,
+				verticalOffset: 40
+			});
+
 
 });

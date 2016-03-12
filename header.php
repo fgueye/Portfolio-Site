@@ -13,16 +13,26 @@
 
 <body  style="background-image: url('<?php the_post_thumbnail_url('full'); ?>') ;"<?php body_class(); ?>>
 
-<header>
+<header  id='#about'>
 
-  <div class="container">
+  <div class="header-container parallax">
   <img src="<?php the_field('logo', 'option'); ?>" alt="">
-  <div><img src="//localhost:3000/portfoliosite/wp-content/themes/theme-hackeryou/images/speckle1.png" alt=""></div>
+  <div class="parallax__layer parallax__layer--deep">
+    <img src="//localhost:3000/portfoliosite/wp-content/themes/theme-hackeryou/images/speckle1.png" alt="">
+  </div>
+
+   <div class="parallax__layer parallax__layer--back">
+    <img src="//localhost:3000/portfoliosite/wp-content/themes/theme-hackeryou/images/speckles3.png" alt="">
+  </div>
+
+  <div class="parallax__layer parallax__layer--front">
+    <img src="//localhost:3000/portfoliosite/wp-content/themes/theme-hackeryou/images/specklesYellow.png" alt="">
+  </div>
 
     
 
     <?php wp_nav_menu( array(
-      'container' => false,
+      'container' => 'ul',
       'theme_location' => 'primary'
     )); ?>
   </div> <!-- /.container -->

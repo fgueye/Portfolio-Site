@@ -3,8 +3,8 @@
 <div class="main">
  
     <section class="about-container">
-    
-    <div class="image" style="background-image:  linear-gradient(rgba(31, 31, 32, 0.97), rgba(35, 38, 40, 0.94)), url('<?php the_field('about_bg'); ?>'); ">
+
+    <div class="about-bg" data-stellar-background-ratio="0.5" style="background-image:  linear-gradient(rgba(31, 31, 32, 0.97), rgba(35, 38, 40, 0.94)), url('<?php the_field('about_bg'); ?>'); ">
       
     </div>
 
@@ -40,14 +40,20 @@
 
     </section>
     <section class="portfolio-container">
+
+    <div class="portfolio-bg" data-stellar-background-ratio="0.5" style="background-image: linear-gradient(rgba(31, 31, 32, 0.73), rgba(35, 38, 40, 0.82)), url('<?php the_field('portfolio_bg'); ?>'); "></div>
+
       <div class="portfolio-content">
-        <h2><?php the_field('portfolio') ?> </h2>
+        <h2><?php the_field('portfolio_title') ?></h2>
       </div>
 
     </section>
 
     <section class="contact-container">
-      <div class="contact-content"></div>
+
+      <div class="contact-content">
+        <?php echo do_shortcode('[contact-form-7 id="53" title="Contact form 1"]') ?>
+      </div>
     </section>
 
 
