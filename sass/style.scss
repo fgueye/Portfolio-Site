@@ -9,6 +9,7 @@
 
 @import 'normalize';
 @import 'typography';
+@import 'partials';
 @import 'header';
 @import 'home-page';
 @import 'portfolio-page';
@@ -21,9 +22,19 @@
 Default Styling
 ====================================
 */
+
+
+
+
 html {
 	font-size: 62.5%;
-	margin-top: 0;
+}
+@media screen {
+	html {
+		margin-top: 0;
+		
+	}
+	
 }
 img {
 	max-width: 100%;

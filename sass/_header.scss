@@ -24,18 +24,21 @@ body {
 		}
 		}
 		.parallax__layer--deep {
+		  height: 100%;
 		  transform: translateZ(-1px) scale(2);
 		  img {
 		  	width: 100%;
 		  }
 		}
 		.parallax__layer--back {
+			height: 100%;
 		  transform: translateZ(-2px) scale(2);
 		  top: 300px;
 		  img {
 		  	width: 100%;
 		  }
 		.parallax__layer--front {
+			height: 100%;
 		  transform: translateZ(-5px) scale(7);
 		      top: 100px;
 		}

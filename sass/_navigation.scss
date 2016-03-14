@@ -16,25 +16,34 @@
 			margin-right: 10px;
 			.fa {
 				position: relative;
-				&:hover p{
-					display: block;
-				}
+				
 				p {
 					display: none;
 					position: absolute;
 					text-align: right;
 					right: 100%;
-					top: -9px;
+					top: 0;
 					margin: 0;
-					padding: 0;				}
-			}
+					padding: 0;
+					transition: all 1s;				}
+				}
+				&:hover p{
+					display: block;
+					font-family: $regfont;
+					text-transform: uppercase;
+					font-size: 3rem;
+					color: $goldcolor;
+				}
 				a {
 				color: #fff;
+				font-family: $regfont;
 				font-size: 4rem;
 				padding: 10px;
+				transition: all 1s;
 
 				&:hover {
-
+					transform: rotate(90deg);
+					color: $goldcolor;
 				}
 
 				

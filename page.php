@@ -4,15 +4,15 @@
   <div class="header-container parallax">
   <img src="<?php the_field('logo', 'option'); ?>" alt="">
   <div class="parallax__layer parallax__layer--deep">
-    <img src="//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/images/speckle1.png" alt="">
+    <img src="//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/images/specklelightgrey.png" alt="">
   </div>
 
    <div class="parallax__layer parallax__layer--back">
-    <img src="//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/images/speckles3.png" alt="">
+    <img src="//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/images/specklesYellow.png" alt="">
   </div>
 
   <div class="parallax__layer parallax__layer--front">
-    <img src="//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/images/specklesYellow.png" alt="">
+    <img src="//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/images/speckles-blur.png" alt="">
   </div>
 
     
@@ -80,7 +80,10 @@
       <div class="social-media">
         <h2>Follow me</h2>
         <ul>
-          <li></li>
+          <?php while(has_sub_field('social_media_icons')): ?>
+           <li><?php the_sub_field('social_media_icon'); ?></li>
+          <?php endwhile;?>
+          
         </ul>
       </div>
     </section>

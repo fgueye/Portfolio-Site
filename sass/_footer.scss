@@ -1,3 +1,26 @@
 footer {
 	clear: both;
+	.footer-container {
+		height: 50px;
+		width: 100%;
+		text-align: center;
+		background: $goldcolor;
+		padding: 0.2rem 0 0;
+		p {
+			color: #fff;
+			text-transform: uppercase;
+			font-family: $regfont;
+			font-size: 1.6rem;
+			letter-spacing: 0.1rem;
+
+		}
+
+	}
+}
+@media (max-width: 380px) {
+	footer .footer-container {
+		p {
+			font-size: 1.2rem;
+		}
+	}
 }

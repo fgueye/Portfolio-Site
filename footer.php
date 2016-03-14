@@ -1,6 +1,6 @@
 <footer>
-  <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+  <div class="footer-container">
+    <p>&copy; Designed and Coded by Fatima Gueye <?php echo date('Y'); ?></p>
   </div>
 </footer>
 
