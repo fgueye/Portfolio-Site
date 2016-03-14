@@ -47,6 +47,8 @@ function hackeryou_styles(){
 
 	wp_enqueue_style('fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 
+	wp_enqueue_style('googleftons', 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,300');
+
 	wp_enqueue_style('devicon', 'https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css');
 }
 
@@ -90,6 +92,15 @@ function hackeryou_scripts() {
     null, // version number
     true //load in footer
   );
+
+  wp_enqueue_script(
+  	'scrollReaveal',
+  	"http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://cdn.jsdelivr.net/scrollreveal.js/3.1.1/scrollreveal.min.js",
+  	false, //dependencies
+  	null, //version number
+  	true //load in footer
+  );
+  
 }
 
 add_action( 'wp_enqueue_scripts', 'hackeryou_scripts');

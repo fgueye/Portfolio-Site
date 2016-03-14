@@ -7,9 +7,12 @@ body {
 		max-width: 100vw;
 		perspective: 1px;
 		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		overflow-x: hidden;
 		overflow-y: auto;
-		margin: 0 auto 20%;
+		margin: 0 auto;
 		.parallax__layer {
 		  position: absolute;
 		  right: 0;

@@ -1,0 +1,23 @@
+.header-portfolio {
+	background-size: cover; 
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 90vh;
+	width: 100vw;
+	h2 {
+		text-transform: uppercase;
+		font-style: italic;
+		color: #fff;
+		margin: 0;
+		font-size: 5rem;
+		letter-spacing: 0.2rem;
+		
+	}
+}
+
+.porfolio-content{
+	background: green;
+	height: 700px;
+	width: 100%;
+}

@@ -29,6 +29,13 @@
 			position: relative;
 			left: 4%;
 		}
+		h1{
+			font-family:'majesti_bannerlight_italic';
+			color: #ffdb00;
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: 5rem;
+		}
 		h2 {
 			color: #fff;
 			margin: 10rem 0 0;
@@ -101,7 +108,7 @@
 .portfolio-container {
 	background: #232527;
 	width: 100%;
-	height: 1000px;
+	height: 800px;
 	transform: skewY(-10deg);
 	padding: 0px 0 39rem 0;
 	position: relative;
@@ -143,12 +150,91 @@
 				top: 28px;
 				left: calc(50% - 56%);
 			}
-
+		}
+		a {
+			text-decoration: none;
+			padding: 10px;
+			font-size: 2rem;
+			color: #fff;
+			background:#ffdb00;
 		}
 	}
 
 }
 
 .contact-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding: 0 6rem;
+	position: relative;
+	z-index: 6;
+	top: -142px;
+	.form-content {
+		width: 100%;
+		position: relative;
+	    top: -79px;
+		.wpcf7 {
+			width: 100%;
+			p {
+				color: #fff;
+				font-family: $regfont;
+				font-size: 1.8rem;
 
+			}
+			input {
+				background: none;
+				border: none;
+				border-bottom: 1px solid yellow;
+				width: 80%;
+				&:focus {
+					background: rgba(247, 247, 247, 0.08);
+					border: none;
+				}
+			}
+			input[type=text]{
+				font-family: $regfont;
+				color: #fff;		
+			}
+			textarea {
+				background: none;
+				border: 1px solid yellow;
+				width: 80%;
+			}
+
+		}
+	}
+}
+
+	.social-media {
+		width: 100%;
+		position: relative;
+	    top: -79px;
+		width: 50%;
+		h2 {
+		color: yellow;
+		}
+	}
+
+	.header-portfolio {
+	background-size: cover; 
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 90vh;
+	width: 100vw;
+	h2 {
+		text-transform: uppercase;
+		font-style: italic;
+		color: #fff;
+		font-size: 5rem;
+		letter-spacing: 0.2rem;
+		
+	}
+}
+
+.porfolio-content{
+	background: green;
+	height: 700px;
+	width: 100%;
 }

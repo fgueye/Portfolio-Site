@@ -1,4 +1,4 @@
-.header-container {
+ 
 	ul.menu {
 		width: 30px;
 		list-style: none; 
@@ -8,7 +8,7 @@
 		flex-direction: column;
 		position: fixed;
 		z-index: 20;
-		right: 0;
+		right: 15px;
 		top: 50%;
 
 
@@ -42,4 +42,3 @@
 		}
 	}
 
-}

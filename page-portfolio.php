@@ -45,6 +45,7 @@
 
       <div class="portfolio-content">
         <h2><?php the_field('portfolio_title') ?></h2>
+        
       </div>
 
     </section>

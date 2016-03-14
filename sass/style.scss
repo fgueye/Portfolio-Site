@@ -11,6 +11,7 @@
 @import 'typography';
 @import 'header';
 @import 'home-page';
+@import 'portfolio-page';
 @import 'navigation';
 @import 'sidebar';
 @import 'comments';
@@ -22,6 +23,7 @@ Default Styling
 */
 html {
 	font-size: 62.5%;
+	margin-top: 0;
 }
 img {
 	max-width: 100%;
