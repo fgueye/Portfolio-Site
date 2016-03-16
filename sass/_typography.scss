@@ -1,14 +1,15 @@
 $regfont:  'Josefin Sans', sans-serif;
 
 @font-face {
-    font-family: 'majesti_bannerlight_italic';
-    src: url('//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/fonts/majesti-banner-lightitalic-webfont.eot');
-    src: url('//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/fonts/majesti-banner-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/fonts/majesti-banner-lightitalic-webfont.woff2') format('woff2'),
-         url('//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/fonts/majesti-banner-lightitalic-webfont.woff') format('woff'),
-         url('//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/fonts/majesti-banner-lightitalic-webfont.ttf') format('truetype'),
-         url('//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/fonts/majesti-banner-lightitalic-webfont.svg#majesti_bannerlight_italic') format('svg');
-       
+    font-family: 'majesti';
+    src: url('fonts/majesti-banner-lightitalic-webfont.eot');
+    src: url('fonts/majesti-banner-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/majesti-banner-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/majesti-banner-lightitalic-webfont.woff') format('woff'),
+         url('fonts/majesti-banner-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/majesti-banner-lightitalic-webfont.svg#majesti_bannerlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;   
 }
 
 

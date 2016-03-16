@@ -5,9 +5,17 @@ get_header()
 */
 
   ?>
-<section class="header-portfolio" style="background-image: url('<?php the_field('header_bg'); ?>');">
+<div class="body header-portfolio" style="background-image: url('<?php the_field('header_bg'); ?>');">
+<section class='inner-header'>
+ <div class="logo-name">
+    <div class="logo-container">
+      <img src="<?php the_field('logo_white', 'option'); ?>" alt="">
+    </div>
+    <h1>Fatima Gueye</h1>
+ </div>
 
   <h2><?php the_field('my_work'); ?></h2>
+
 
 </section>
 <div class="pieces-content">
@@ -48,7 +56,7 @@ get_header()
   <?php endif; ?>
 
   </div>
-<div class="design-pieces-content">
+<!-- <div class="design-pieces-content">
 
   <?php $designpiecesQuery = new WP_Query(array(
           'posts_per_page' => 4,
@@ -85,4 +93,8 @@ get_header()
     <?php endwhile; ?>
     <?php wp_reset_postdata(); ?>
   <?php endif; ?>
-</div>
+</div> -->
+
+
+
+<?php get_footer(); ?>

@@ -4,15 +4,15 @@
   <div class="header-container parallax">
   <img src="<?php the_field('logo', 'option'); ?>" alt="">
   <div class="parallax__layer parallax__layer--deep">
-    <img src="//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/images/specklelightgrey.png" alt="">
+    <img src="//fgueye.com/wp-content/themes/theme-hackeryou/images/specklelightgrey.png" alt="">
   </div>
 
    <div class="parallax__layer parallax__layer--back">
-    <img src="//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/images/specklesYellow.png" alt="">
+    <img src="//fgueye.com/wp-content/themes/theme-hackeryou/images/specklesYellow.png" alt="">
   </div>
 
   <div class="parallax__layer parallax__layer--front">
-    <img src="//localhost:8888/portfoliosite/wp-content/themes/theme-hackeryou/images/speckles-blur.png" alt="">
+    <img src="//fgueye.com/wp-content/themes/theme-hackeryou/images/speckles-blur.png" alt="">
   </div>
 
     
@@ -30,7 +30,7 @@
 
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-      <div class="about-content">
+      <div id="about" class="about-content">
         
               <div class="portrait-container"> <img src="<?php the_field('portrait'); ?>" alt="">
               </div>
@@ -46,7 +46,7 @@
       <?php endwhile; // end the loop?>
     </section> <!-- /.about-content -->
 
-    <section id='skills'class="skill-container">
+    <section id='skills' class="skill-container">
       
      <div class="skill-content">
         <h2><?php the_field('skill_title'); ?></h2>
@@ -72,6 +72,10 @@
     </section>
 
     <section id='contact' class="contact-container">
+    <div class="email">
+      <h2>Contact me</h2>
+      <p>info@fgueye.com</p>
+    </div>
 
       <div class="form-content">
 

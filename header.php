@@ -9,14 +9,15 @@
   <!-- stylesheets should be enqueued in functions.php -->
   <?php wp_head(); ?>
 
-   <?php wp_nav_menu( array(
-      'container' => 'ul',
-      'theme_location' => 'primary'
-    )); ?>
 </head>
 
 
-<body  style="background-image: url('<?php the_post_thumbnail_url('full'); ?>') ;"<?php body_class(); ?>>
+<body  style="background: url('<?php the_post_thumbnail_url('full'); ?>') no-repeat,linear-gradient(to left, rgb(17, 16, 21), rgb(40, 40, 40)); background-size: auto; background-attachment: fixed; background-position: top; min-width: 100%;
+  min-height: 100%; " <?php body_class(); ?>>
+ <?php wp_nav_menu( array(
+    'container' => 'ul',
+    'theme_location' => 'primary'
+  )); ?>
 
 
 

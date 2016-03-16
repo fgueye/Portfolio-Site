@@ -50,6 +50,8 @@ function hackeryou_styles(){
 	wp_enqueue_style('googleftons', 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,300');
 
 	wp_enqueue_style('devicon', 'https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css');
+
+	wp_enqueue_style('devicon', 'https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css');
 }
 
 add_action( 'wp_enqueue_scripts', 'hackeryou_styles');
